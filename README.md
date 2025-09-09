@@ -1,20 +1,6 @@
 # Medical Chatbot Application
 
-A web-based application that provides medical assistance through chat, symptom checking, document management, and emergency services. The application ensures secure access through login and registration while allowing critical features like emergency calls without authentication.
-
----
-
-## Table of Contents
-
-- [Login/Register Page](#loginregister-page)
-- [Medical Chat Assistance](#medical-chat-assistance)
-- [Basic Symptom Checker](#basic-symptom-checker)
-- [Document Management](#document-management)
-- [Medical Document Analysis (RAG Mode)](#medical-document-analysis-rag-mode)
-- [Emergency Call](#emergency-call)
-- [Setup and Installation](#setup-and-installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
+The Medical Chatbot Application provides intelligent healthcare assistance through a user-friendly platform. It offers chat assistance powered by the Gemini API for accurate and interactive medical guidance. A quick symptom checker helps users assess their health conditions efficiently. The app supports medical document analysis in RAG mode, offering AI-driven insights from uploaded reports. Document management allows secure storage and easy access to medical report softcopies. An emergency call feature triggers automatic calls without requiring login, ensuring instant access to help in critical situations.
 
 ---
 
@@ -22,11 +8,11 @@ A web-based application that provides medical assistance through chat, symptom c
 
 The application implements a secure login and registration system to control access:
 
-- **Registration Required:** New users must register by providing a username, email, and password.
-- **Login:** Registered users can log in to access all features.
-- **Access Control:** Only authenticated users can access most features. Unauthenticated users can only use the emergency call feature.
-- **Security:** Passwords are securely hashed and session management ensures safe user authentication.
-
+The application uses a secure user authentication system to manage access.
+New users must register with a username, email, and password to gain full access.
+Registered users can log in to utilize all features of the application.
+Access control ensures that non-logged-in users cannot access app functionalities, except for the emergency call, which remains available at all times.
+Passwords are securely hashed, and session management guarantees that only authenticated users can interact with the system.
 ---
 
 ## Medical Chat Assistance
